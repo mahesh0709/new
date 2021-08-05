@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        function calc() {
+            var a = 5
+            
+        }
+    </script>
+</head>
+<body>
+    <form>
+        <h1>Seminar Registration form</h1>
+
+        <h3>Participant name <input type="text" placeholder="First name" /> <input type="text" placeholder="Last name" /> </h3>
+      
+        <h3>Email-ID : <input type="text" /></h3>
+        <h3>confirm Email-ID : <input type="text" /> </h3>
+        <h3>Seminars 
+            <select name="SOA">
+                <option> None1</option>
+                <option> None2</option>
+                <option> None3</option>
+                <option> None4</option>
+            </select></h3>
+        <h3>
+            Level:<input type="radio" name="a" />Introductory <input type="radio" name="a" />Intermediate
+            <input type="radio" name="a" />Advanced
+        </h3>
+    
+        <input type="button" value="CAlculate Training Cost " name="cal" />
+        <h3>Cost of Seminar: <input type="text" onclick="calc()"/></h3>
+        <input type="button" value="Display details" name="disp" onclick=""/>
+        <input type="submit" value=" Submit" id="sub"/>
+    </form>
+</body>
+</html>
